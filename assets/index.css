@@ -3,9 +3,14 @@ body {
   margin: 0;
 }
 
+h3{
+  margin-left: 37vw;
+  font-size: 2vw;
+}
+
 .container {
   position: relative;
-  min-height: 100vh;
+  min-height: 85vh;
   width: 100vw;
   display: grid;
   grid: repeat(12, 3vw)
@@ -18,8 +23,6 @@ body {
   position: absolute;
   height: 100%;
   width: 100%;
-  text-align: center;
-
 }
 
 img{
@@ -132,4 +135,21 @@ img{
   grid-area: 10 / 4 / span 2 / span 3;
   background-color: yellow;
   clip-path: polygon(0 0, 9vw 0, 9vw 3vw, 6vw 3vw, 6vw 6vw, 3vw 6vw, 3vw 3vw, 0 3vw);
+}
+
+.s{
+  grid-area: 11 / 3 / span 2 / span 3;
+  background-color: blue;
+  clip-path: polygon(0 0, 6vw 0, 6vw 3vw, 9vw 3vw, 9vw 6vw, 3vw 6vw, 3vw 3vw, 0 3vw);
+}
+
+.t{
+  grid-area: 11 / 1 / span 2 / span 3;
+  background-color: coral;
+  clip-path: polygon(3vw 0, 6vw 0, 6vw 3vw, 9vw 3vw, 9vw 6vw, 0 6vw, 0 3vw, 3vw 3vw);
+}
+
+.u{
+  grid-area: 11 / 6 / span 2 / span 2;
+  background-color: coral;
 }
